@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Visual Studio WorkSpace\\AzWebApplication\\AzWebApplication\\AzWebApplication.csproj": {}
+    "D:\\Github\\Learning\\Azure-Development\\AzWebApplication\\AzWebApplication.csproj": {}
   },
   "projects": {
-    "D:\\Visual Studio WorkSpace\\AzWebApplication\\AzWebApplication\\AzWebApplication.csproj": {
+    "D:\\Github\\Learning\\Azure-Development\\AzWebApplication\\AzWebApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Visual Studio WorkSpace\\AzWebApplication\\AzWebApplication\\AzWebApplication.csproj",
+        "projectUniqueName": "D:\\Github\\Learning\\Azure-Development\\AzWebApplication\\AzWebApplication.csproj",
         "projectName": "AzWebApplication",
-        "projectPath": "D:\\Visual Studio WorkSpace\\AzWebApplication\\AzWebApplication\\AzWebApplication.csproj",
+        "projectPath": "D:\\Github\\Learning\\Azure-Development\\AzWebApplication\\AzWebApplication.csproj",
         "packagesPath": "C:\\Users\\sunny\\.nuget\\packages\\",
-        "outputPath": "D:\\Visual Studio WorkSpace\\AzWebApplication\\AzWebApplication\\obj\\",
+        "outputPath": "D:\\Github\\Learning\\Azure-Development\\AzWebApplication\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sunny\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,16 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Azure.Identity": {
+              "target": "Package",
+              "version": "[1.5.0, )"
+            },
+            "Azure.Security.KeyVault.Secrets": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -57,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
