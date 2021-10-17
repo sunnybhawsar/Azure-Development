@@ -23,8 +23,14 @@ namespace AzWebApplication.Controllers
 
         public IActionResult Index()
         {
+            //To read from local appsettings.json
             ViewBag.Role = _configuration["role"];
+
+            //To read from application setting of Azure App Service
             ViewBag.SecretRole = _configuration.GetSection("secretRole").Value;
+
+            //Same code to read from application setting of Azure App Service that has value of key vault reference secret
+            ViewBag.SecretCountry = _configuration.GetSection("secretCountry").Value;
             return View();
         }
 
