@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "sXpsJcK0X2pWnmiaYCT1Ggjp1t8hMXrTu/9kyZdhTYz6ocwq+HTcjr4Jv60HVP3LEREMl8BYF4IZDKYuWPNfgA==",
+  "success": true,
+  "projectFilePath": "D:\\Visual Studio WorkSpace\\AzWebApplication\\AzWebApplication\\AzWebApplication.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sunny\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.24\\microsoft.netcore.app.host.win-x64.3.1.24.nupkg.sha512",
+    "C:\\Users\\sunny\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\sunny\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\sunny\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
